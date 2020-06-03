@@ -1,3 +1,7 @@
+[![Build Status](
+  https://api.travis-ci.org/vshishov/otus_cpp_08.svg?branch=master
+)](https://travis-ci.org/github/vshishov/otus_cpp_08)
+
 # otus_cpp_08
 Timus Online Judge
 
