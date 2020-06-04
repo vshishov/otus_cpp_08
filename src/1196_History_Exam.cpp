@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// Timus didn't make a decision with a TL error,
+// so I had to write a quick search function
 bool bin_search(long int* a, long int k, int low , int high)
 {
 	while(low <= high) {

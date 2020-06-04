@@ -103,5 +103,11 @@ int main() {
 		std::cout << man->name << ' ' << l << std::endl;
 	}
 	
+	for ( auto& it : mans ) {
+    delete it;
+	}
+	
+	mans.clear();
+
 	return 0;
 }

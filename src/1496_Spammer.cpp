@@ -11,9 +11,9 @@ int main() {
 		mTeamCounter[strTeamName] += 1;
 	}
 	
-	for (auto team : mTeamCounter) {
+	for (auto& team : mTeamCounter) {
 		if (team.second > 1) {
-		std::cout << team.first << std::endl;
+			std::cout << team.first << std::endl;
 		}
 	}
 	return 0;
